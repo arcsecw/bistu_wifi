@@ -10,7 +10,11 @@
 
 > 感谢 https://github.com/billhu1996 修改shell
 
+> 关合屏幕或者手动切换wifi 开关wifi开关 都会触发并执行登录脚本并正常登录
 
+> 已知问题：开机后没有运行一次登录脚本，
+
+> TODO : 监测进入桌面信号，运行一次登录脚本
 ```
 git clone git@github.com:arcsecw/bistu_wifi.git
 cd bistu_wifi
