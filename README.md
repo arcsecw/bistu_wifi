@@ -2,19 +2,19 @@
 
 > 登录bistu wifi 每次都得打开浏览器登录很烦。我想要让BISTU像自己家wifi一样连接既可用。
 
-**概述**   
+> **概述**   
 
-1使用curl post你的用户名密码 到https://1.1.1.1/login.html即可完成登录。
+> 1使用curl post你的用户名密码 到https://1.1.1.1/login.html即可完成登录。
 
-2使用control panel 可以持续监测你的mac，一旦连接到了bistu就执行curl完成登录动作
+> 2使用control panel 可以持续监测你的mac，一旦连接到了bistu就执行curl完成登录动作
 
-**cuntrolpanel 设置其实还挺清晰**
+> **cuntrolpanel 设置其实还挺清晰**
 
-1定义rule 来检测某种类型的系统变化
+> 1定义rule 来检测某种类型的系统变化
 
-2 定义action 来设置你要执行的自定义动作
+> 2 定义action 来设置你要执行的自定义动作
 
-3 定义context 来关联你的rule以及action
+> 3 定义context 来关联你的rule以及action
 
 - ###下载安装ControlPlane
   
